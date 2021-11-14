@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+/**********NavBar*****/
+
+:root {
+  --primary-black: #000000;
+  --Alice-white: #c2ced2;
+  --primary-red: #FF0000;
+  --primary-dark: rgb(255,255,255,0);
+}
+
+body{
+  font-family: 'Oswald' sans-serif;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-dark {
+  height: 25vmin;
+}
+img.logo {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  top: 2rem;
+}
+.logo{
+height: 6rem;
+background: goldenrod;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+/*****Nav Links****/
+nav a.nav-link{
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  position: relative;
+  bottom: 0.5rem;
+  
+}
+ul.navbar-nav.ml-auto {
+  position: relative;
+  top: 3rem;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+.nav-link  {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  margin-bottom: 6rem;
+  border-top: 0.187rem solid #38313100;
+
+  color: var(--Alice-white) !important;
+}
+.navbar-brand {
+  max-width: 9rem;
+  padding: 0 !important;
+  height: 9rem !important;
+}
+.nav-link:hover{
+  border-top: 0.1875rem solid var(--primary-red);
+}
